@@ -1,0 +1,18 @@
+header {
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
