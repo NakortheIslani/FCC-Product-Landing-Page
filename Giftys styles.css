@@ -1,18 +1,35 @@
 header {
     position: fixed;
     display: flex;
-    justify-content: right;
     align-items: center;
+    justify-content: space-around;
 }
 
 nav > ul {
     display: flex;
     flex-direction: row; 
     justify-content: space-around;
+    width: 35vw;
 }
 
 nav {
     display: flex;
     flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 20px;
+}
+
+h1 > img {
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+}
+
+span {
+    font-size: 16px;
+    margin-left: 5px;
 }
 
