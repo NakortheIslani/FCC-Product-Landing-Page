@@ -1,8 +1,13 @@
-header {
+#relative-page {
+    position: relative;
+}
+
+header { 
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    top: -15px;
 }
 
 nav > ul {
