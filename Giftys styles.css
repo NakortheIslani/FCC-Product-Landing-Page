@@ -16,7 +16,6 @@ header {
 
 nav > ul {
     display: flex; 
-    color: orange;
     justify-content: space-around;
     padding-right: 1%;
     list-style: none;
@@ -41,10 +40,17 @@ h1 > img {
     width: 50px;
 }
 
-span { 
+.tagline-one { 
     font-size: 16px;    
     text-decoration: underline;
     margin-left: 1%;
+    font-style: italic;
+}
+
+.tagline-two {
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: italic;
 }
 
 h2 {
@@ -56,19 +62,41 @@ h2 {
 h3 {
     text-align: center;
     font-size: 30px;
-    margin-left: -8px;
+    margin: 100px 0 0 -8px;
     text-decoration: underline;
 }
 
+.text-sections {
+    margin: 0 10% 0 10%
+}
+
 p {
-    text-align: center;   
+    text-align: center;
+    font-size: 18px;
 }
 
 div {
-    text-align: center;   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 #video {
-    width: 511px;
-    height: 266px;
+    width: 700px;
+    height: 455px;
+}
+
+@media all and (max-width: 720px) {
+    #video {
+        width: 480px;
+        height: 225px;
+    }
+    p {
+        text-align: center;
+        width: 450px;
+    }
+    .text-sections {
+        margin: 0 3% 0 3%;
+    }
 }
