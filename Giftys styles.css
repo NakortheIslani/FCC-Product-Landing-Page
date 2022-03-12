@@ -87,6 +87,24 @@ div {
     height: 455px;
 }
 
+.get-started {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    column-gap: 5px;
+}
+
+.hero {
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.input-gap {
+    margin-bottom: 10px;
+}
+
 @media all and (max-width: 720px) {
     #video {
         width: 480px;
@@ -98,5 +116,9 @@ div {
     }
     .text-sections {
         margin: 0 3% 0 3%;
+    }
+    .hero {
+        width: 260px;
+        height: 260px;
     }
 }
