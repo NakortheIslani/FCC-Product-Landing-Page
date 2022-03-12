@@ -30,6 +30,12 @@ nav {
     background: steelblue;
 }
 
+.nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
 h1 {
     font-size: 40px;
     line-height: 20px;
