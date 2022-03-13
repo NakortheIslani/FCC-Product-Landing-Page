@@ -71,8 +71,13 @@ h3 {
     text-decoration: underline;
 }
 
+.video-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .text-sections {
-    margin: 0 10% 0 10%
+    margin: 0 10% 30px 10%
 }
 
 p {
@@ -98,17 +103,18 @@ div {
     display: flex;
     flex-direction: column;
     font-size: 30px;
-    column-gap: 5px;
+    column-gap: 10px;
 }
 
 .hero {
     width: 500px;
-    height: 500px;
+    height: 800px;
     margin-right: 10px;
 }
 
-.input-gap {
+.email {
     margin-bottom: 10px;
+    width: 80%;
 }
 
 .products {
@@ -144,13 +150,16 @@ div {
     width: 310px;
     height: 450px;
     border: 1px solid black;
-    padding: 10px 0 10px 0;
+    padding: 5px 0 5px 0;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .stacking {
     display: flex;
     flex-direction: column;
+    row-gap: 15px;
 }
 
 .purchase {
@@ -171,7 +180,10 @@ div {
     }
     .hero {
         width: 260px;
-        height: 260px;
+        height: 535px;
+    }
+    .purchase {
+        width: 300px;
     }
 }
 
@@ -182,5 +194,16 @@ div {
     #product-text {
         text-align: center;
         margin: 0 auto 0 auto;
+    }
+    .hero {
+        width: 360px;
+        height: 610px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .hero {
+        width: 250px;
+        height: 500px;
     }
 }
