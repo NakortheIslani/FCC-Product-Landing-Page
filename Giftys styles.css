@@ -117,29 +117,44 @@ div {
     flex-wrap: wrap;
     align-content: center;
     column-gap: 20px;
+    margin-bottom: 40px;
 }
 
 #image-one {
     height: 300px;
     width: 300px;
-    border: 1px solid black;
 }
 
 #image-two {
     height: 300px;
     width: 300px;
-    border: 1px solid black;
 }
 
 #image-three {
     height: 300px;
     width: 300px;
-    border: 1px solid black;
 }
 
 #product-text {
     font-size: 30px;
     display: block;
+}
+
+.product-display {
+    width: 310px;
+    height: 450px;
+    border: 1px solid black;
+    padding: 10px 0 10px 0;
+    display: flex;
+}
+
+.stacking {
+    display: flex;
+    flex-direction: column;
+}
+
+.purchase {
+    width: 100%;
 }
 
 @media all and (max-width: 720px) {
