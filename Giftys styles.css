@@ -111,6 +111,27 @@ div {
     margin-bottom: 10px;
 }
 
+.products {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#image-one {
+    height: 300px;
+    width: 300px;
+}
+
+#image-two {
+    height: 300px;
+    width: 300px;
+}
+
+#image-three {
+    height: 300px;
+    width: 300px;
+}
+
 @media all and (max-width: 720px) {
     #video {
         width: 480px;
