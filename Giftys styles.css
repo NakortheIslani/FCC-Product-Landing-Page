@@ -91,6 +91,7 @@ div {
 #video {
     width: 700px;
     height: 455px;
+    margin-bottom: 100px;
 }
 
 .get-started {
@@ -115,21 +116,29 @@ div {
     display: flex;
     flex-direction: row;
     align-content: center;
+    column-gap: 10px;
 }
 
 #image-one {
     height: 300px;
     width: 300px;
+    border: 1px solid black;
 }
 
 #image-two {
     height: 300px;
     width: 300px;
+    border: 1px solid black;
 }
 
 #image-three {
     height: 300px;
     width: 300px;
+    border: 1px solid black;
+}
+
+#product-text {
+    font-size: 30px;
 }
 
 @media all and (max-width: 720px) {
