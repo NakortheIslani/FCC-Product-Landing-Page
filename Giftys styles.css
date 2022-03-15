@@ -100,7 +100,11 @@ div {
 #video {
     width: 700px;
     height: 455px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+}
+
+#our-process {
+    margin-bottom: 40px;
 }
 
 .get-started {
@@ -112,8 +116,8 @@ div {
 }
 
 .hero {
-    width: 400px;
-    height: 700px;
+    width: 250px;
+    height: 550px;
     margin-right: 10px;
 }
 
