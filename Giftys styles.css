@@ -1,9 +1,13 @@
+body {
+    background-color: #A7d8d2;
+}
+
 #page-wrap { 
     margin: 120px auto 0 auto;
 }
 
 header { 
-    background: steelblue;
+    background: #DED9C4;
     position: fixed;
     display: flex;
     width: 100%;
@@ -71,7 +75,7 @@ h2 {
 h3 {
     text-align: center;
     font-size: 30px;
-    margin: 100px 0 0 -8px;
+    margin: 0px 0 0 -8px;
     text-decoration: underline;
 }
 
@@ -81,7 +85,9 @@ h3 {
 }
 
 .text-sections {
-    margin: 0 10% 30px 10%
+    margin: 0 10% 0px 10%;
+    background-color: #89B5AF;
+    padding: 20px 20px;
 }
 
 p {
@@ -100,11 +106,18 @@ div {
 #video {
     width: 700px;
     height: 455px;
-    margin-bottom: 20px;
 }
 
-#our-process {
-    margin-bottom: 40px;
+input[type=submit] {
+    background-color: #89B5AF;
+    border-style: none;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #89B5AF;
+    border-style: none;
+    color: rgb(67, 64, 228);
 }
 
 .get-started {
@@ -113,6 +126,8 @@ div {
     flex-direction: column;
     font-size: 30px;
     column-gap: 10px;
+    background-color: #89B5AF;
+    margin: -10px -10px;
 }
 
 .hero {
@@ -150,11 +165,6 @@ div {
     width: 300px;
 }
 
-.product-text {
-    font-size: 30px;
-    display: block;
-}
-
 .product-display {
     width: 310px;
     height: 450px;
@@ -186,6 +196,7 @@ div {
     width: 100%;
     margin-left: -8px;
     align-items: center;
+    background-color: #DED9C4;
 }
 
 .footer-nav {
@@ -230,10 +241,6 @@ div {
     #product-text {
         text-align: center;
         margin: 0 auto 0 auto;
-    }
-    .hero {
-        width: 360px;
-        height: 610px;
     }
 }
 
